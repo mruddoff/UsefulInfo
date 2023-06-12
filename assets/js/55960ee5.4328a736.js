@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuseful_info=self.webpackChunkuseful_info||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435","permalink":"/UsefulInfo/docs/tags/\u0432\u0432\u0435\u0434\u0435\u043d\u0438\u0435","count":1}]')}}]);
