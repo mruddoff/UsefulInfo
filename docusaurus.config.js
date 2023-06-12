@@ -11,6 +11,7 @@ const config = {
 
   url: 'https://mruddoff.github.io',
   baseUrl: '/UsefulInfo',
+  trailingSlash: false,
 
   organizationName: 'mruddoff',
   projectName: 'UsefulInfo',
