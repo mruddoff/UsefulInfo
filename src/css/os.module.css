@@ -1,0 +1,37 @@
+.linux {
+    color: white;
+}
+.linux::before {
+    background-image: url(@site/static/img/Linux.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-flex;
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
+    content:" ";
+    vertical-align: middle;
+}
+.linux[aria-selected='true'] {
+    border-bottom-color: white;
+}
+
+.windows {
+    color: #0099ff;
+}
+.windows::before {
+    background-image: url(@site/static/img/Windows.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: inline-flex;
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
+    content:" ";
+    vertical-align: middle;
+}
+.windows[aria-selected='true'] {
+    border-bottom-color: #0099ff;
+}

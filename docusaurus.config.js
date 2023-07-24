@@ -70,9 +70,39 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'common',
+            position: 'left',
+            label: 'Общее',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'python',
+            label: 'Python',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'windows',
+            label: 'Windows',
+          },
+          {
+            type: 'docSidebar',
             position: 'left',
             sidebarId: 'linux',
             label: 'Linux',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'discord',
+            label: 'Discord',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: '1C',
+            label: '1C',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -87,6 +117,7 @@ const config = {
         copyright: `Built with Docusaurus. Useful Info ${new Date().getFullYear()} • Права проекта под защитой.`,
       },
       prism: {
+        additionalLanguages: ['powershell', 'java', 'python'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
